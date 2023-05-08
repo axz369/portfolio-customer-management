@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.th, .td {
+	display:inline-block;
+	padding-bottom:5px;
+}
+.th {
+	text-align:center;
+	font-weight:bold;
+}
+.th0, .td0 {
+	width:5em;
+}
+.th1, .td1 {
+	width:5em;
+}
+
+
+/*menu header*/
+ul {
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+}
+.login-store{
+	color: green;
+}
+
+/*customer.phpページ*/
+.customer-data{
+	width: 680px;
+	margin: 0 auto;
+	height: 83px;
+	margin-bottom: 50px;
+	display: flex;
+	text-align: center;
+}
+.customer-update-form{
+	width: auto;
+	height: 83px;
+	text-align: center;
+}
+.customer-delete-form{
+	width: auto;
+	height: 83px;
+	text-align: center;
+	display: flex;
+    align-items: flex-end;
+}
+.customer-new-data{
+	width:100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+/*order.php ページ*/
+.order-data{
+	width: 680px;
+	margin: 0 auto;
+	height: 69.5px;
+	margin-bottom: 50px;
+	display: flex;
+}
+.order-update-form{
+	width: auto;
+	height: 69.5px;
+}
+.order-delete-form{
+	width: auto;
+	height: 69.5px;
+	display: flex;
+    align-items: flex-end;
+}
+.order-delete-button{
+	display: flex;
+    align-items: flex-end;
+}
+.order-new-data{
+	width:680px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.order-upper-data{	
+	text-align: left;
+}
+
+
+/*own-order.php ページ*/
+.own-order-data{
+	width: 680px;
+	margin: 0 auto;
+	height: 69.5px;
+	margin-bottom: 50px;
+	display: flex;
+}
+.own-order-update-form{
+	width: auto;
+	height: 69.5px;
+}
+.own-order-delete-form{
+	width: auto;
+	height: 69.5px;
+	display: flex;
+    align-items: flex-end;
+}
+.own-order-delete-button{
+	display: flex;
+    align-items: flex-end;
+}
+
+
+/*all-order.php ページ*/
+.all-order-data{
+	width: 680px;
+	margin: 0 auto;
+	height: 69.5px;
+	margin-bottom: 50px;
+	display: flex;
+}
+.all-order-update-form{
+	width: auto;
+	height: 69.5px;
+}
+.all-order-delete-form{
+	width: auto;
+	height: 69.5px;
+	display: flex;
+    align-items: flex-end;
+}
+.all-order-delete-button{
+	display: flex;
+    align-items: flex-end;
+}
+
+
+/*store.phpページ*/
+.store-data{
+	width: 660px;
+	display: flex;
+}
+.store-update-form{
+	width: auto;
+}
+.store-delete-form{
+	width: auto;
+	display: flex;
+    align-items: flex-end;
+}
+.store-delete-button{
+	display: flex;
+    align-items: flex-end;
+}
+.new-store-from{
+	margin-top: 90px;
+}
